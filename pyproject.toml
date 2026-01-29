@@ -1,0 +1,12 @@
+[project]
+name = "autolearning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "robotcode[all]>=2.2.0",
+    "robotframework>=7.4.1",
+    "robotframework-requests>=0.9.7",
+    "robotframework-robocop>=7.2.0",
+]

@@ -1,0 +1,26 @@
+default-profiles = ["test"]
+output-dir = "report"
+log-level = "INFO"
+
+
+[variables]
+HEADLESS = "NO"
+
+
+
+[profiles.dev]
+precedence = 500
+[profiles.test]
+precedence = 100
+[profiles.demo]
+precedence = 200
+[profiles.prod]
+precedence = 300
+[profiles.test.extend-variables]
+ENV = "saastest"
+[profiles.demo.extend-variables]
+ENV = "saasdemo"
+[profiles.prod.extend-variables]
+ENV = "saasprod"
+[profiles.dev.extend-variables]
+ENV = "saasdev112"
