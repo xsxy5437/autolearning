@@ -3,7 +3,7 @@ Documentation       This is a demo test case.
 
 Resource            variables.resource
 
-Test Tags           demo
+Test Tags           demo1
 
 
 *** Test Cases ***
